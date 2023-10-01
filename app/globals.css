@@ -2,7 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.cursor{
-    transition: all 0.2s linear;
+body{
+    background-color:#ffffff;
 }
+h1:nth-child(1) {
+  background-image: linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 223, 216));
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 8s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-name: first;
+  animation-play-state: running;
+  animation-timing-function: ease;
+}
+@keyframes first {
+  0%,
+  16.667%,
+  to {
+    color: transparent;
+  }
+  33.333%,
+  83.333% {
+    color: black;
+  }
+}
+
+h1:nth-child(2) {
+  background-image: linear-gradient(90deg, rgb(121, 40, 202), rgb(255, 0, 128));
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 8s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-name: second;
+  animation-play-state: running;
+  animation-timing-function: ease;
+}
+
+@keyframes second {
+  0%,
+  to {
+    color: black;
+  }
+  33.333%,
+  50% {
+    color: transparent;
+  }
+  16.667%,
+  66.667% {
+    color: black;
+  }
+}
+
+h1:nth-child(3) {
+  background-image: linear-gradient(90deg, rgb(255, 77, 77), rgb(249, 203, 40));
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 8s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-name: third;
+  animation-play-state: running;
+  animation-timing-function: ease;
+}
+
+@keyframes third {
+  0%,
+  50%,
+  to {
+    color: black;
+  }
+  66.667%,
+  83.333% {
+    color: transparent;
+  }
+}
+
