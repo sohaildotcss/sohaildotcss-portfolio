@@ -2,7 +2,7 @@ import "../loader.css";
 function Loader() {
   return (
     <>
-      <div className="loader absolute h-screen w-screen bg-[#1c1d20]">
+      <div className="loader absolute h-screen w-screen bg-[#141517]">
         <div className="wrapper transition-all w-full h-full flex justify-center items-center font-light text-6xl tracking-tighter text-slate-200">
           <h1>Hello</h1>
           <h1>Bonjour</h1>
